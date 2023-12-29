@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRICING LIST</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #F4F2FD;
+        }
+        .container{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            gap: 20px;
+            padding-top: 100px;
+        }
+        .box{
+            width: 250px;
+            height: fit-content;
+            background-color: white;
+            border-radius: 7px;
+            padding-top: 50px;
+            padding-left: 35px;
+        }
+        h2{
+            font-size: 36px;
+        }
+        .box2{
+            color: white;
+            background-color: #202842;
+        }
+        .box1{
+            background-color: white;
+        }
+        p,h2{
+            margin: 0;
+            padding: 0;
+        }
+        .pricing{
+            margin: 10px;
+            font-weight: bolder;
+        }
+        .subscribe{
+            margin: 20px;
+            color: white;
+            border-radius: 24px;
+            font-size: 18px;
+            padding:10px 25px;
+        }
+        button{
+            padding: 10px;
+            width: 170px;
+            border-radius: 20px;
+            border-color: transparent;
+            position: relative;
+            left: -25px;
+            font-weight: bold;
+        }
+        .light{
+            background-color: #202842;
+            color: white;
+        }
+        .features{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- pricing section -->
+    <section class="container">
+        <div class="box box1">
+                <h2 class="plan-name">Free Plan</h2>
+                <p class="plan-for">For perosnal</p>
+                <h2 class="pricing">$0</h2>
+                <p class="features"><span><img src="./light_tick.png" ></span>1 User</p>
+                <p class="features"><span><img src="./light_tick.png"alt=""></span>4 Webmails</p>
+                <p class="features"><span><img src="./light_tick.png" ></span>Responsive Websites</p>
+                <p class="features"><span>   <img src="./light_tick.png" alt=""></span>FreeSSL</p>
+                <div class="subscribe">
+                    <button class="light">Subscribe Now</button>
+                </div>
+        </div>
+        <div class="box box2">
+            <h2 class="plan-name">Basic Plan</h2>
+            <p class="plan-for">For small business</p>
+            <h2 class="pricing">$29</h2>
+            <p class="features"><span><img src="./dark_tick.png" ></span>4 User</p>
+            <p class="features"><span><img src="./dark_tick.png"alt=""></span>Unlimited Webmails</p>
+            <p class="features"><span><img src="./dark_tick.png" ></span>Responsive Websites</p>
+            <p class="features"><span><img src="./dark_tick.png" alt=""></span>FreeSSL</p>
+            <div class="subscribe dark">
+                <button>Subscribe Now</button>
+            </div>
+        </div> 
+        <div class="box box1">
+            <h2 class="plan-name">Pro Plan</h2>
+            <p class="plan-for">For enterprise</p>
+            <h2 class="pricing">$49</h2>
+            <p class="features"><span><img src="./light_tick.png" ></span>1Unlimited Users</p>
+            <p class="features"><span><img src="./light_tick.png"alt=""></span>Unlimited Webmails</p>
+            <p class="features"><span><img src="./light_tick.png" ></span>Responsive Websites</p>
+            <p class="features"><span><img src="./light_tick.png" alt=""></span>FreeSSL + SEO</p>
+            <div class="subscribe">
+                <button class="light">Subscribe Now</button>
+            </div
+    </div>
+    </section>
+</body>
+</html>

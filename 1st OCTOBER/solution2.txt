@@ -1,0 +1,77 @@
+justify-content:
+
+        => Role: This property defines how the items inside a flex container are distributed along the main axis.
+        => Values:
+            flex-start: Items are packed at the start of the main axis.
+            flex-end: Items are packed at the end of the main axis.
+            center: Items are centered along the main axis.
+            space-between: Items are evenly distributed with the first item at the start and the last item at the end.                
+            space-around: Items are evenly distributed with equal space around them.
+            space-evenly: Items are evenly distributed with equal space around them, including before the first and after the last item.
+
+            Example
+
+            .flex-container {
+            display: flex;
+            justify-content: space-between;
+            }
+
+align-items:
+
+        => Role: This property defines how the items inside a flex container are aligned along the cross axis.
+        => Values:
+            flex-start: Items are aligned at the start of the cross axis.
+            flex-end: Items are aligned at the end of the cross axis.
+            center: Items are centered along the cross axis.
+            baseline: Items are aligned based on their baselines.
+            stretch: Items are stretched to fill the container along the cross axis.
+
+            Example
+
+            .flex-container {
+            display: flex;
+            align-items: center;
+            }
+
+gap:
+        
+        => Role: This property defines the spacing between flex items within a flex container.
+        => Values: Any length unit, such as pixels, ems, or percentages.
+
+            Example
+
+            .flex-container {
+            display: flex;
+            gap: 10px;
+            }
+
+flex-direction:
+
+        => Role: This property defines the direction of the main axis in the flex container.
+        => Values:
+            row: Main axis is the same as the writing mode (horizontal).
+            row-reverse: Main axis is the same as the writing mode, but reversed.
+            column: Main axis is perpendicular to the writing mode (vertical).
+            column-reverse: Main axis is perpendicular to the writing mode, but reversed.
+
+            Example
+
+            .flex-container {
+            display: flex;
+            flex-direction: column;
+            }
+
+flex-wrap:
+
+        => Role: This property defines whether flex items should wrap to a new line if they overflow the container along the main axis.
+        => Values:
+            nowrap: All flex items are on one line (default).
+            wrap: Flex items wrap onto multiple lines as necessary.
+            wrap-reverse: Flex items wrap onto multiple lines in reverse order.
+
+            Example
+
+            .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            }
